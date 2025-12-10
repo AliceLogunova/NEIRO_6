@@ -4,7 +4,7 @@ import time
 
 import matplotlib.pyplot as plt
 import numpy as np
-from pyfirmata import Arduino, util  # get_pin('a:0:i'), read()->0..1, enable_reporting()
+from pyfirmata import Arduino, util  # type: ignore # get_pin('a:0:i'), read()->0..1, enable_reporting()
 from scipy import signal
 
 BANDS = [
